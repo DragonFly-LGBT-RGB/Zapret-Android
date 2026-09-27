@@ -93,9 +93,6 @@ python3 build.py            # Windows: py build.py
 Всё скачанное кэшируется в `.build-tools/`, повторный запуск продолжает с того же места.
 Первая сборка занимает 10–20 минут (в основном скачивание SDK/NDK ~5 ГБ), последующие — меньше минуты.
 
-Если в сети недоступен `dl.google.com`, поставьте Android SDK вручную (Android Studio)
-и запустите `python3 build.py --sdk-dir путь/к/Sdk`.
-
 **`Permission denied: getsockopt` / `Could not resolve ...` при сборке.** Это не блокировка со
 стороны Google: сеть закрыта именно для `java.exe` (фаервол Windows, антивирус, корпоративный
 прокси) — обычно при этом падает и `repo.maven.apache.org`. `build.py` сам повторяет сборку
@@ -109,13 +106,6 @@ python3 build.py            # Windows: py build.py
 `error: expected identifier or '('` в `hev-object-atomic.h` и т. п.). `build.py` и
 `scripts/fetch-native-sources.sh` чинят это автоматически после клонирования, заменяя такие
 файлы на `#include`-заглушки. Отдельно включать режим разработчика или права на симлинки не нужно.
-
-### Вручную (Android Studio / Gradle)
-
-```bash
-bash scripts/fetch-native-sources.sh   # byedpi + hev-socks5-tunnel + nfqws
-./gradlew assembleDebug                # app/build/outputs/apk/debug/app-debug.apk
-```
 
 ### Сборка на GitHub Actions
 
