@@ -73,7 +73,6 @@ ByeDPI работает на уровне TCP-потока, а не пакето
 ```bash
 git clone https://github.com/DragonFly-LGBT-RGB/ZapretAndroid
 cd ZapretAndroid
-git checkout arena/01a0ddf0-zapretandroid
 
 python3 build.py            # Windows: py build.py
 ```
