@@ -71,7 +71,7 @@ ByeDPI работает на уровне TCP-потока, а не пакето
 (JDK 17, Android SDK + platform 35 + build-tools + NDK 27 + CMake, byedpi, hev-socks5-tunnel, nfqws):
 
 ```bash
-git clone https://github.com/DragonFly-LGBT-RGB/ZapretAndroid
+git clone https://github.com/DragonFly-LGBT-RGB/Zapret-Android
 cd ZapretAndroid
 
 python3 build.py            # Windows: py build.py
