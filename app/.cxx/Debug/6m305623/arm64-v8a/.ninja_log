@@ -1,0 +1,10 @@
+# ninja log v5
+52	555	8121411092467769	CMakeFiles/byedpi.dir/byedpi_jni.c.o	1b63a28f9b90fddb
+11	702	8121411094077679	CMakeFiles/byedpi.dir/byedpi/conev.c.o	2f130df1e8a6feb9
+41	757	8121411094527650	CMakeFiles/byedpi.dir/byedpi/mpool.c.o	c050f3c8ca3ea5d6
+31	849	8121411095617700	CMakeFiles/byedpi.dir/byedpi/extend.c.o	df55a5955d9d0ed5
+1	878	8121411095937688	CMakeFiles/byedpi.dir/byedpi/desync.c.o	a4b8a9206d00b2e2
+66	932	8121411096467684	CMakeFiles/byedpi.dir/byedpi/proxy.c.o	eea9a64ed2b83184
+95	1021	8121411097347672	CMakeFiles/byedpi.dir/byedpi/packets.c.o	78dbd2af9acdc967
+21	1051	8121411097657706	CMakeFiles/byedpi.dir/byedpi/main.c.o	b36906867258a6e2
+1052	1308	8121411100357649	C:/Users/Artem/Downloads/ZapretAndroid-arena-01a0ddf0-zapretandroid/ZapretAndroid-arena-01a0ddf0-zapretandroid/app/build/intermediates/cxx/Debug/6m305623/obj/arm64-v8a/libbyedpi.so	ff354e8547b835c6

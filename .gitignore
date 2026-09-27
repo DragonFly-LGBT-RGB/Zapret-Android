@@ -1,0 +1,17 @@
+# Android / Gradle
+.gradle/
+build/
+local.properties
+*.iml
+.idea/
+captures/
+
+# Fetched third-party native sources and prebuilt binaries
+app/src/main/cpp/byedpi/
+app/src/main/jni/hev-socks5-tunnel/
+app/src/main/jniLibs/
+out/
+
+# build.py
+.build-tools/
+__pycache__/

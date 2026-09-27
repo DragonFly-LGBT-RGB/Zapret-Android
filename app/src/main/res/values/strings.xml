@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Zapret</string>
+    <string name="notification_channel">Состояние обхода DPI</string>
+    <string name="notification_channel_description">Показывает, работает ли обход блокировок</string>
+    <string name="action_stop">Остановить</string>
+    <string name="status_starting">Запуск…</string>
+    <string name="status_running_root">Работает · root (nfqws)</string>
+    <string name="status_running_vpn">Работает · VPN (ByeDPI)</string>
+</resources>

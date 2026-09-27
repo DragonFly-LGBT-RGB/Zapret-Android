@@ -1,0 +1,1 @@
+C:\Users\Artem\Downloads\ZapretAndroid-arena-01a0ddf0-zapretandroid\ZapretAndroid-arena-01a0ddf0-zapretandroid\app\src\main\cpp\CMakeLists.txt
